@@ -3,7 +3,7 @@
 ### For Model & Mothod introduction, please check [here](https://github.com/selimsef/dsb2018_topcoders/).
 ### This fork is for environment seting.
 
-## [Code that I've done some change.](https://drive.google.com/file/d/19DyuLzYWclJWs3E6azTAcYlCV8grubK9/view?usp=sharing)
+## [Code that I've done some change and with data.](https://drive.google.com/file/d/19DyuLzYWclJWs3E6azTAcYlCV8grubK9/view?usp=sharing)
 ### use
 ```
 git log
