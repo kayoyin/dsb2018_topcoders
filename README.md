@@ -74,3 +74,6 @@ After that, run:
 ../victor/predict_test.sh
 ```
 ## For create_submissions Fails
+#### If the memory can't create a submission for all test data, you can split the files in folder merged_test and in merged_extend_test  into two segments (about 1500 files).
+#### Then run ```python create_submissions.py``` for two times.
+#### After that, merge the two csv files into one.
