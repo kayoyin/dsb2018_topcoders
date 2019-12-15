@@ -66,8 +66,11 @@ pip install tensorflow-gpu==2.0.0
 pip install Keras==2.3.1
 pip install Keras-Applications==1.0.8
 pip install opencv-python==3.4.2.16 
+pip install pandas
+pip install scikit-learn==0.19
 ```
 After that, run:
 ```
 ../victor/predict_test.sh
 ```
+## For create_submissions Fails
