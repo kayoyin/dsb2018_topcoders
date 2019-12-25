@@ -23,6 +23,20 @@ use
 ```nvcc --version```
 to check
 
+## Mask-RCNN
+Setup environment
+```
+cd maskrcnn
+virtualenv venv --python=python3 
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+Download trained model weights
+```
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=19kVton20JL9u0CpwGssD7EbBvsWcq1ty' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=19kVton20JL9u0CpwGssD7EbBvsWcq1ty" -O maskrcnn.h5 && rm -rf /tmp/cookies.txt
+```
+
 ## Selim's
 
 ```
